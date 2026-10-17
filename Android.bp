@@ -1,0 +1,71 @@
+// Auto-generated prebuilt Blueprint for external/drm_hwcomposer_celadon
+// Extracted from APEX package: org.blisslabs.ag.drm_hwcomposer_celadon
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "org.blisslabs.ag.drm_hwcomposer_celadon",
+    apex_name: "org.blisslabs.ag.drm_hwcomposer_celadon",
+    source_apex_name: "org.blisslabs.ag.drm_hwcomposer_celadon",
+    arch: {
+        x86_64: {
+            src: "org.blisslabs.ag.drm_hwcomposer_celadon-14000001.apex",
+        },
+    },
+    filename: "org.blisslabs.ag.drm_hwcomposer_celadon-14000001.apex",
+    prefer: true,
+    installable: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.drm_celadon",
+    vendor_available: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/hwcomposer.drm_celadon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.drm_minigbm_celadon",
+    vendor_available: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/hwcomposer.drm_minigbm_celadon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.drm_gbm_cros_celadon",
+    vendor_available: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/hwcomposer.drm_gbm_cros_celadon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwcomposer.drm_celadon",
+    vendor_available: true,
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/libhwcomposer.drm_celadon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwcomposer.drm_minigbm_celadon",
+    vendor_available: true,
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/libhwcomposer.drm_minigbm_celadon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwcomposer.drm_gbm_cros_celadon",
+    vendor_available: true,
+    check_elf_files: false,
+    prefer: true,
+    srcs: ["src/lib/libhwcomposer.drm_gbm_cros_celadon.so"],
+}

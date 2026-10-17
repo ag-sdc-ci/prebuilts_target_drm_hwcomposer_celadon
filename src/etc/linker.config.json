@@ -1,0 +1,33 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_hwcomposer.drm-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_hwcomposer.drm-celadon.so.so",
+		    "libdummy_binary_hwcomposer.drm-gbm-cros-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_hwcomposer.drm-gbm-cros-celadon.so.so",
+		    "libdummy_binary_hwcomposer.drm-minigbm-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_hwcomposer.drm-minigbm-celadon.so.so",
+		    "libdummy_binary_libhwcomposer.drm-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_libhwcomposer.drm-celadon.so.so",
+		    "libdummy_binary_libhwcomposer.drm-gbm-cros-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_libhwcomposer.drm-gbm-cros-celadon.so.so",
+		    "libdummy_binary_libhwcomposer.drm-minigbm-celadon-x86_64-v2.so.so",
+		    "libdummy_binary_libhwcomposer.drm-minigbm-celadon.so.so",
+		    "libdummy_drm_hwcomposer_celadon-x86_64-v2.so",
+		    "libdummy_drm_hwcomposer_celadon.so"
+	],
+	"requireLibs": [	
+		    "libc++.so",
+		    "libc.so",
+		    "libcutils.so",
+		    "libdl.so",
+		    "libdrm.so",
+		    "libhardware.so",
+		    "libhidlbase.so",
+		    "liblog.so",
+		    "libm.so",
+		    "libsync.so",
+		    "libui.so",
+		    "libutils.so"
+	],
+	"visible": true
+}

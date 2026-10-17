@@ -1,6 +1,6 @@
 shadow prebuilt repo: drm_hwcomposer_celadon (target)
-  upstream: external/drm_hwcomposer_celadon
-  api-level: 34 (branch 34-20261010)
-  blobs: org.blisslabs.ag.drm_hwcomposer_celadon-14000001.apex 
-  dev-src: none (no dev subpackage)
-  date: 2026-10-10
+  upstream: external/drm_hwcomposer#celadon
+  api-level: 34 (branch 34)
+  blobs: org.blisslabs.ag.drm_hwcomposer_celadon-14000001.apex org.blisslabs.ag.drm_hwcomposer_celadon.dev-14000001.apex
+  src: extracted payload providing hwcomposer.drm_celadon, hwcomposer.drm_minigbm_celadon, hwcomposer.drm_gbm_cros_celadon
+  date: 2026-10-17
