@@ -25,7 +25,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/hwcomposer.drm_celadon.so"],
+    srcs: ["lib64/hwcomposer.drm_celadon.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -34,7 +34,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/hwcomposer.drm_minigbm_celadon.so"],
+    srcs: ["lib64/hwcomposer.drm_minigbm_celadon.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -43,7 +43,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/hwcomposer.drm_gbm_cros_celadon.so"],
+    srcs: ["lib64/hwcomposer.drm_gbm_cros_celadon.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -51,7 +51,7 @@ cc_prebuilt_library_shared {
     vendor_available: true,
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/libhwcomposer.drm_celadon.so"],
+    srcs: ["lib64/libhwcomposer.drm_celadon.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -59,7 +59,7 @@ cc_prebuilt_library_shared {
     vendor_available: true,
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/libhwcomposer.drm_minigbm_celadon.so"],
+    srcs: ["lib64/libhwcomposer.drm_minigbm_celadon.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -67,5 +67,5 @@ cc_prebuilt_library_shared {
     vendor_available: true,
     check_elf_files: false,
     prefer: true,
-    srcs: ["src/lib/libhwcomposer.drm_gbm_cros_celadon.so"],
+    srcs: ["lib64/libhwcomposer.drm_gbm_cros_celadon.so"],
 }
